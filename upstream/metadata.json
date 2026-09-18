@@ -1,0 +1,14 @@
+{
+  "upstreamRepository": "https://github.com/skywind3000/ECDICT",
+  "upstreamCommit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+  "upstreamBranch": "master",
+  "author": "Lin Wei (skywind3000)",
+  "description": "Free English to Chinese Dictionary Database",
+  "license": "MIT / CC-BY-SA",
+  "sources": {
+    "ecdict.csv": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv",
+    "lemma.en.txt": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/lemma.en.txt",
+    "README.md": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/README.md"
+  },
+  "retrievedAt": "2026-09-18T21:08:00+08:00"
+}

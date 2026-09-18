@@ -1,0 +1,21 @@
+{
+  "source": "ECDICT",
+  "upstreamRepository": "https://github.com/skywind3000/ECDICT",
+  "upstreamCommit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+  "inputs": {
+    "ecdict.csv": {
+      "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+      "bytes": 65933428
+    },
+    "lemma.en.txt": {
+      "sha256": "e255b097404e3e0052060e2ddf6e15a1414f577071d63d51d2ca0ce9dacee0fc",
+      "bytes": 2318694
+    }
+  },
+  "build": {
+    "dictionaryEntries": 770611,
+    "lemmaMappings": 115889,
+    "formMappings": 92440
+  },
+  "generatedAt": "2026-09-18T21:13:43+0800"
+}

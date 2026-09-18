@@ -1,0 +1,128 @@
+{
+  "auditVersion": "ecdict-audit-1.0",
+  "generatedAt": "2026-09-18T21:13:52+0800",
+  "upstream": {
+    "repository": "https://github.com/skywind3000/ECDICT",
+    "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+    "files": {
+      "ecdict.csv": {
+        "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+        "bytes": 65933428
+      },
+      "lemma.en.txt": {
+        "sha256": "e255b097404e3e0052060e2ddf6e15a1414f577071d63d51d2ca0ce9dacee0fc",
+        "bytes": 2318694
+      }
+    }
+  },
+  "integrity": {
+    "csvFullyParsed": true,
+    "csvRowCount": 770611,
+    "emptyWordCount": 0,
+    "duplicateWordExactCount": 0,
+    "duplicateWordLowerCount": 0,
+    "malformedExchangeCount": 25,
+    "malformedExchangeSamples": [
+      {
+        "word": "bath",
+        "token": "i:"
+      },
+      {
+        "word": "bitt",
+        "token": "i:"
+      },
+      {
+        "word": "bitt",
+        "token": "p:"
+      },
+      {
+        "word": "bitt",
+        "token": "d:"
+      },
+      {
+        "word": "burr",
+        "token": "i:"
+      },
+      {
+        "word": "can",
+        "token": "i:"
+      },
+      {
+        "word": "can",
+        "token": "d:"
+      },
+      {
+        "word": "crossbreed",
+        "token": "p:"
+      },
+      {
+        "word": "crossbreed",
+        "token": "d:"
+      },
+      {
+        "word": "hyphen",
+        "token": "i:"
+      }
+    ],
+    "sqliteEntriesMatchesCsv": true,
+    "sqliteLemmaMatchesIndex": true
+  },
+  "counts": {
+    "dictionaryEntries": 770611,
+    "lemmaMappings": 115889,
+    "formsIndexLemmas": 92440,
+    "sqliteEntriesRows": 770611,
+    "sqliteLemmaLookupRows": 115889,
+    "sqliteWordFormsRows": 197540,
+    "unresolvedLemmasExact": 20697,
+    "unresolvedLemmasCaseInsensitive": 9533,
+    "sampleUnresolvedLemmas": [
+      "%",
+      "'and",
+      "'andsome",
+      "'ang",
+      "'appen",
+      "'appy",
+      "'at",
+      "'ate",
+      "'b",
+      "'bok"
+    ]
+  },
+  "coverage": {
+    "phonetic": {
+      "emptyCount": 552546,
+      "presentCount": 218065,
+      "coverageRate": 0.283
+    },
+    "definition": {
+      "emptyCount": 609727,
+      "presentCount": 160884,
+      "coverageRate": 0.2088
+    },
+    "translation": {
+      "emptyCount": 1872,
+      "presentCount": 768739,
+      "coverageRate": 0.9976
+    },
+    "pos": {
+      "presentCount": 0,
+      "coverageRate": 0.0
+    },
+    "bnc": {
+      "presentCount": 770611,
+      "coverageRate": 1.0
+    },
+    "frq": {
+      "presentCount": 770611,
+      "coverageRate": 1.0
+    }
+  },
+  "queryVerification": {
+    "exactWordLookup": true,
+    "caseInsensitiveLookup": true,
+    "formToLemmaLookup": true,
+    "lemmaToFormsLookup": true,
+    "batchLookup": true
+  }
+}
